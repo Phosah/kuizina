@@ -1,0 +1,26 @@
+.navbar-item:hover{
+    border: 1px solid maroon;
+    border-radius: 4px;
+    height: 30px;
+    transform: scale(1.025);
+    transition: ease-in-out .1s;
+    backface-visibility: hidden;
+}
+
+.navbar-item:visited {
+    border: 1px solid maroon;
+    border-radius: 4px;
+    height: 30px;
+}
+
+.footerImg {
+    background-image: url("images/footer.jpg");
+    background-size: cover;
+    background-repeat: none;
+}
+
+@media (max-width: 992px) {
+    .topBarContactInfo {
+        display: none;
+    }
+}
